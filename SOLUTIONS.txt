@@ -1,0 +1,57 @@
+[shandila@athena:24]> gcc main.c buffer.h -pthread -lrt
+[shandila@athena:25]> ./a.out 12 6 8
+Producer produced 532265111
+consumer  consumed 532265111
+Producer produced 1369949241
+Producer produced 1796568923
+consumer  consumed 1369949241
+consumer  consumed 1796568923
+Producer produced 1124084144
+consumer  consumed 1124084144
+Producer produced 46455131
+Producer produced 1049400114
+consumer  consumed 46455131
+consumer  consumed 1049400114
+Producer produced 1440966649
+consumer  consumed 1440966649
+Producer produced 1553456934
+consumer  consumed 1553456934
+Producer produced 718848093
+Producer produced 488212662
+consumer  consumed 718848093
+consumer  consumed 488212662
+Producer produced 586463038
+consumer  consumed 586463038
+Producer produced 1199911973
+consumer  consumed 1199911973
+Producer produced 1604593612
+consumer  consumed 1604593612
+Producer produced 2117112700
+consumer  consumed 2117112700
+Producer produced 12636211
+consumer  consumed 12636211
+---------------------------------------------------
+[shandila@athena:26]> ./a.out 10 4 4
+Producer produced 1237007473
+consumer  consumed 1237007473
+Producer produced 1573099843
+Producer produced 371827126
+Producer produced 2120416256
+consumer  consumed 1573099843
+Producer produced 1287962396
+Producer produced 999083146
+consumer  consumed 371827126
+consumer  consumed 2120416256
+Producer produced 659386592
+Producer produced 1999522108
+consumer  consumed 1287962396
+consumer  consumed 999083146
+Producer produced 1823766814
+consumer  consumed 659386592
+Producer produced 1552452945
+consumer  consumed 1999522108
+Producer produced 116444274
+consumer  consumed 1823766814
+consumer  consumed 1552452945
+consumer  consumed 116444274
+[shandila@athena:27]>
